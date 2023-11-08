@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Single Price Grid Component</title>
+
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+    body{
+      font-family: 'Poppins', sans-serif;
+    }
+  </style>
+  
+</head>
+<body class="md:h-screen h-full bg-[#e5eff5] p-10 md:p-auto">
+  <div class="h-screen md:flex justify-center items-center mb-10">
+    <div class="md:h-[500px] md:w-[700px] md:grid grid-rows-2 shadow-xl rounded-xl bg-white">
+      <div class="md:pt-10 md:px-10 p-10">
+        <h1 class="font-bold text-[#2ab2af]">Join our community</h1>
+        <h2 class="text-[#c0df34] text-[14px] md:text-[16px] my-2"> 30-day, hassle-free money back guarantee</h2>
+        <p class="text-[#98a6bd] text-[12px] md:text-[18px]">Gain access to our full library of tutorials along with expert code reviews. 
+          Perfect for any developers who are serious about honing their skills.</p>
+      </div>
+      <div class="md:grid grid-cols-2 shadow-xl text-white ">
+        <div class="bg-[#2ab2af]  p-10 md:rounded-bl-xl">
+          <h2 class="text-[18px] ">Monthly Subscription</h2>
+          <p class="my-4"><span class="text-[28px]">&dollar;29</span> <span class="text-[#10ccc9]">per month</span></p>
+          <p class="">Full access for less than &dollar;1 a day</p>
+          <button class="bg-[#c0df34] text-white w-full py-3 mt-5 rounded shadow-xl">Sign Up</button>
+        </div>
+        <div class=" p-10 text-[16px] bg-[#2ebcb9] rounded-br-xl rounded-bl-xl md:rounded-bl-none list-none">
+          <h2 class="text-[18px] ">Why Us</h2>
+          <div class="text-[14px] mt-4">
+            <li>Tutorials by industry experts</li>
+            <li>Peer &amp; expert code review</li>
+            <li>Coding exercises</li>
+            <li>Access to our GitHub repos</li>
+            <li>Community forum</li>
+            <li>Flashcard decks</li>
+            <li>New videos every week</li>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer class="fixed bottom-0 text-center ">
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Your Name Here</a>.
+    </p>
+  </footer>
+</body>
+</html>
